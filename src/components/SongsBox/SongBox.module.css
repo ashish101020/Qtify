@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.songTable {
+  width: 1283px;
+  height: 1368px;
+  background-color: #121212;
+  /* background-color: #ffffff; */
+  color: #ffffff;
+  margin: 0px 85px;
+}
+.tableBody {
+  width: 1283px;
+  height: 1328px;
+  /* top: 639px; */
+  /* left: 85px; */
+  gap: 16px;
+}
+.songHero {
+  width: 1009px;
+  height: 329px;
+  margin-left: 85px;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songImg {
+  width: 288px;
+  height: 329px;
+  /* top: 168px; */
+  /* left: 85px; */
+  border-radius: 20px;
+  border-width: 12px;
+}
+.heroDetail {
+  width: 661px;
+  height: 229px;
+  /* top: 218px; */
+  /* left: 433px; */
+  gap: 8px;
+  background-color: #fff;
+}
+.back {
+  width: 40px;
+  height: 40px;
+  margin: 27px 78px;
+  border-width: 1px;
+  background-color: #fff;
+}
+.imgList {
+  width: 59px;
+  height: 64px;
+  border-radius: 4px;
+}
+.line{
+  margin: 8px 0px;
+  border: none;       
+  height: 1px;     
+  background-color: gray; 
+  width: 100%;
+}
